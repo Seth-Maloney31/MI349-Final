@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MI349 Final Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="Contact-me-page">
+    <header class="contact-me-header">
+        <img src="images/MaloneyLogo.png" alt="Logo" class="logo-contact">
+    <h1>Contact Me</h1>
+    </header>
+    <li><a href="about.html">About</a></li>
+    <main>
+        <p>First off, thank you so much for taking the time out of your day to contact me, in the page below, please fill out the relevant information, along with any information
+            that you have of the technology at your business (if you don't know the specifics, that's okay!  Just fill out as much as you can)
+        </p>
+        <h2 class="contactheader">Contact Information</h2>
+    </main>
+
+    <form class="Business-info">
+        <label class="namelabel">Enter Your name:           
+            <input type="text">
+        </label>
+        <label>Enter Your business name:
+            <input type="text">
+        </label>
+        <label>
+            Enter your email:
+            <input type ="email">
+        </label>
+        
+    </form>
+
+    <form class="contact">
+              
+        <label>
+            Please Enter Information About the Technology at Your Business Below:
+        </label>
+        
+        <textarea name="comment" id="comment"></textarea>
+        
+        <button onclick="SubmitSuccess()">Submit</button>
+        <div id="SubmitText"><p>
+            Thank you for submitting your information.  I will get back to you within 24 hours.  Thank you again!
+        </p></div>
+
+        <script>
+        function SubmitSuccess() {
+        var x= document.getElementById ('SubmitText');
+        
+        if (x.style.display =="block"){
+            x.style.display = "none";
+        } else {
+            x.style.display="block";
+        }
+
+        }
+        </script>
+    </form>
+</div>
+   
+
+
+
+
+

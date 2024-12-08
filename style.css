@@ -1,0 +1,81 @@
+/* Home css */
+.Home-Page{
+    background: #92a8d1;
+    min-height: 100vh;
+}
+.Home-header{
+    display: flex;
+}
+.logo-Home{
+    max-width: 5%;
+    height: auto;
+}
+.Home-Page-Logo{
+    width: 100%;
+    height: auto;
+}
+.Emergency-Link{
+    background-color: red;
+    text-decoration: none;
+    width: 20px;
+    
+}
+
+
+/* about css */
+.full-about-me{
+    background: #a2b9bc;
+    min-height: 100vh;   
+    
+}
+.about-me-header{
+    display: flex;
+}
+.logo-about{
+    max-width: 5%;
+    height: auto;
+
+}
+.headshot{
+    float: left;
+    margin-right: 25px;
+    max-width: 30%;
+    margin-top: 20px;
+    height: auto;
+}
+.about-me{
+    display: flex;
+}
+.about-me-text{
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Contact css */
+.Business-info{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.contact-me-header{
+    display: flex;
+}
+.logo-contact{
+    max-width: 5%;
+    height: auto;
+
+}
+.Contact-me-page{
+    background: #92a8d1;
+    min-height: 100vh;
+}
+#SubmitText{
+    display: none;
+}
