@@ -197,6 +197,9 @@ a{
         flex-direction: column;
 
     }
+    .Emergency-Paragraph{
+        max-width: 100%;
+    }
 
     .first,.second,.third{
         max-width: 100%;
