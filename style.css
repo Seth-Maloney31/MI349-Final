@@ -1,4 +1,23 @@
 /* Home css */
+.nav{
+    background-color:black;
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+    width: 100%;
+    }
+.nav ul{
+        list-style-type: none;
+        display: flex;
+        margin: 0px;
+        gap: 20px;
+        padding: 10px 15px;
+        
+}
+a{
+    color: ghostwhite;
+    text-decoration: none;
+}
 .Home-Page{
     background: #92a8d1;
     min-height: 100vh;
@@ -45,7 +64,7 @@
 }
 /* Emergency css */
 .Emergency-Page{
-    background: #c94c4c ;
+    background: #92a8d1;
     min-height: 100vh;
     min-width:  100vh;
 }
@@ -162,4 +181,24 @@
 }
 .call-me{
     color: white;
+}
+
+/* @media adjustments */
+@media (max-width: 480px){
+    .nav ul{
+        flex-direction: column;
+    }
+
+    .Emergency-Link, .Appointment-Link{
+        font-size: 6vw;
+    }
+
+    .testimonials{
+        flex-direction: column;
+
+    }
+
+    .first,.second,.third{
+        max-width: 100%;
+    }
 }
