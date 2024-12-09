@@ -34,17 +34,16 @@ a{
     height: auto;
 }
 .Emergency-Link{
-    background-color: red;
-    color: white;
+    color: #c94c4c;
     text-decoration: none;
     font-size: 3vw;
     margin-right: 50px;
 }
 .Appointment-Link{
     text-decoration: none;
-    color: white;
+    color: #36486b;
     font-size: 5vh;
-    background-color: #bca5a2;
+    
 }
 .Introduce{
     font-size: 3vh;
@@ -58,9 +57,9 @@ a{
 
 .Testimonials-Link{
     font-size: 4vh;
-    color: white;
+    color: #36486b;
     text-decoration: none;
-    background-color: #bca5a2;
+    
 }
 /* Emergency css */
 .Emergency-Page{
