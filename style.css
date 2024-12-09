@@ -184,6 +184,9 @@ a{
 }
 
 /* @media adjustments */
+@media (max-width){
+    
+}
 @media (max-width: 480px){
     .nav ul{
         flex-direction: column;
