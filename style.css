@@ -184,8 +184,8 @@ a{
 }
 
 /* @media adjustments */
-@media (max-width){
-    
+@media (max-width: 767px){
+
 }
 @media (max-width: 480px){
     .nav ul{
@@ -201,6 +201,7 @@ a{
 
     }
     .Emergency-Paragraph{
+        width: 100%;
         max-width: 100%;
     }
 
