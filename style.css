@@ -185,6 +185,29 @@ a{
 
 /* @media adjustments */
 @media (max-width: 767px){
+    .nav ul{
+        flex-direction: column;
+    }
+    .Emergency-Link, .Appointment-Link{
+        font-size: 6vw;
+    }
+
+    .testimonials{
+        flex-direction: column;
+
+    }
+    .Emergency-Paragraph{
+        width: 100%;
+        max-width: 100%;
+    }
+    .Emergency-Page{
+        max-width: 100%;
+    }
+
+    .first,.second,.third{
+        max-width: 100%;
+    }
+
 
 }
 @media (max-width: 480px){
@@ -202,6 +225,9 @@ a{
     }
     .Emergency-Paragraph{
         width: 100%;
+        max-width: 100%;
+    }
+    .Emergency-Page{
         max-width: 100%;
     }
 
